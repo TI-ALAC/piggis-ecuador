@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: regular;
+
+    font-family: 'MYRIADPRO';
+    src: url(fonts/MYRIADPRO-BOLD.otf);
+    font-weight: regular;
+}
+
+#contenido3 {
+    background-color: black;
+}
+
+#contenido4 {
+    background-color: black;
+}
+
+#contenido5 {
+    background-color: black;
+}
+
+#contenido6 {
+    background-color: black;
+}
+
+#contenido7 {
+    background-color: black;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#pozoUnidad {
+    font-size: 122pt;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    left: 32%;
+    top: 30%;
+    position: absolute;
+}
+
+#millones {
+    font-size: 122pt;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+
+
+
+
+/* 768x384 */
+@media only screen and (max-width: 768px) {
+
+    #millones {
+        font-size: 42pt !important;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF !important;
+        left: 76%;
+        top: 68%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    #date {
+        font-size: 20pt !important;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF !important;
+        left: 39%;
+        top: 11%;
+        font-style: normal;
+        position: absolute;
+
+    }
+
+    #clock {
+        font-size: 75pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 54%;
+        top: 6%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    #hour {
+        font-size: 30pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 88%;
+        top: 17%;
+        font-style: normal;
+        position: absolute;
+    }
+            
+
+}
+
+
+@media only screen and (max-width: 510px) {
+    #millones {
+        font-size: 40pt !important;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF !important;
+        left: 52%;
+        top: 87%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    #date {
+        font-size: 19pt !important;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF !important;
+        left: 34%;
+        top: 53%;
+        font-style: normal;
+        position: absolute;
+
+    }
+
+    #clock {
+        font-size: 60pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 23%;
+        top: 65%;
+        font-style: normal;
+        position: absolute;
+    }
+
+    #hour {
+        font-size: 22pt !important;
+        font-family: 'MYRIADPRO', sans-serif;
+        color: #FFF !important;
+        left: 64%;
+        top: 68%;
+        font-style: normal;
+        position: absolute;
+    }
+}
