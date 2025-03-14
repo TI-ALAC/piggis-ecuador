@@ -14,7 +14,7 @@ function updateImage() {
   const imgLluvia = document.getElementById('img-province-lluvia');
 
   console.log("window.innerWidth",window.innerWidth)
-  if (window.innerWidth <= 510) {
+  if (window.innerWidth <= 600) {
     imgNublado.src = `img/${province}/nublado-vertical.jpg`;
     imgSoleado.src = `img/${province}/soleado-vertical.jpg`;
     imgLluvia.src = `img/${province}/lluvia-vertical.jpg`;
